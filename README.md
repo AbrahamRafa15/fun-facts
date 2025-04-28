@@ -15,10 +15,10 @@ Verify that Node.js is correctly installed with `node -v` and `npm -v`
 ## Create a project with React
 
 > [!Important]
-> This section is in case you don't clone the repository and make a new project
+> This section is in case you make a new project instead of cloning this repository
 
 Choose a location in your computer or create a new directory, open a terminal window in the directory\
-Run the command `npx create-react-app name-of-proyect`\
+Run the command `npx create-react-app name-of-project`\
 This will create all the files required to run your project
 
 Change to the project directory and run `npm start`\
