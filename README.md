@@ -7,7 +7,7 @@ This project was inspired by 'Learn React: Introdution', from [Codecademy](https
 
 First, you need Node.js\
 In case you don't have Node.js installed in your computer, you can find the instructions in this site: https://nodejs.org/en/download/
-> [!Warning].
+> [!Warning]
 > In this project we used nvm and npm
 
 Verify that Node.js is correctly installed with `node -v` and `npm -v`
