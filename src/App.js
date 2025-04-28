@@ -4,8 +4,8 @@ import React, { useState } from "react";
 
 const App = () => {
   const [fact, setFact] = useState("");
-  const showBackground = true;
-  const title = "";
+  const [showBackground, setShowBackGround] = useState(true);
+  const title = "Click an animal for a fun fact";
 
   const displayFact = (animal) => {
     const facts = animals[animal].facts;
@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>{title || "Click an animal for a fun fact"}</h1>
+      <h1>{title}</h1>
       {showBackground && (
         <img className="background" alt="ocean" src="/images/ocean.jpg" />
       )}
@@ -34,6 +34,9 @@ const App = () => {
           />
         ))}
       </div>
+      <button onClick={() => setShowBackGround(!showBackground)}>
+          Toogle background
+      </button>
     </div>
   );
 };
