@@ -10,7 +10,6 @@ const App = () => {
   const displayFact = (animal) => {
     const facts = animals[animal].facts;
     const randomFact = facts[Math.floor(Math.random() * facts.length)];
-    console.log(randomFact);
     setFact(randomFact);
   };
 
@@ -34,7 +33,7 @@ const App = () => {
           />
         ))}
       </div>
-      <button onClick={() => setShowBackGround(!showBackground)}>
+      <button className="toggle-background" onClick={() => setShowBackGround(!showBackground)}>
           Toogle background
       </button>
     </div>

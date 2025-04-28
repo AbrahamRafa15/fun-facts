@@ -34,6 +34,15 @@ div {
 	width: 33.3%;
 }
 
+.toggle-background {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 3;
+	padding: 10px 20px;
+	font-size: 1rem;
+}
+
 @media only screen and (max-width: 670px) {
 	.animals {
 		margin-top: 180px;
