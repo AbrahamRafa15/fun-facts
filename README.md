@@ -18,12 +18,11 @@ Verify that Node.js is correctly installed with `node -v` and `npm -v`
 > This section is in case you don't clone the repository and make a new project
 
 Choose a location in your computer or create a new directory, open a terminal window in the directory\
-Run the command `npx create-react-app name-of-proyect`
+Run the command `npx create-react-app name-of-proyect`\
 This will create all the files required to run your project
 
-Change to the project directory and run `npm start`
-This will open the template for any React project at [http://localhost:3000]http://localhost:3000.
-
+Change to the project directory and run `npm start`\
+This will open the template for any React project at [http://localhost:3000]http://localhost:3000.\
 After that, you can access in any code editor to modify your project
 
 ## Understanding `App.js`
