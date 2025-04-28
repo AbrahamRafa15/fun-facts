@@ -1,19 +1,21 @@
 # Fun Facts About Animals
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-This project was inspired by 'Learn React: Introdution', from Codecademy(https://codecademy.com)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+This project was inspired by 'Learn React: Introdution', from [Codecademy](https://codecademy.com)
 
 ## Installation
 
-First, you need Node.js
+First, you need Node.js\
 In case you don't have Node.js installed in your computer, you can find the instructions in this site: https://nodejs.org/en/download/
-> Note: In this project we used nvm and npm
+> [!Warning].
+> In this project we used nvm and npm
 
 Verify that Node.js is correctly installed with `node -v` and `npm -v`
 
 ## Create a project with React
 
-> Note: This section is in case you don't clone the repository and make a new project
+> [!Important]
+> This section is in case you don't clone the repository and make a new project
 
 Choose a location in your computer or create a new directory, open a terminal window in the directory
 Run the command `npx create-react-app name-of-proyect`
@@ -23,6 +25,13 @@ Change to the project directory and run `npm start`
 This will open the template for any React project at [http://localhost:3000]http://localhost:3000.
 
 After that, you can access in any code editor to modify your project
+
+## Understanding `App.js`
+
+The `App.js` file is the main component that runs the app. It contains the logic for displaying the fun facts about animals and handling user interactions. Here's a brief overview:
+- The state is initialized with an empty message.
+- When an animal image is clicked, a random fun fact is displayed about the selected animal.
+- The `App.js` file uses React hooks like `useState` to manage the state of the application.
 
 ## Available Scripts
 
