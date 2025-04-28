@@ -22,7 +22,7 @@ Run the command `npx create-react-app name-of-project`\
 This will create all the files required to run your project
 
 Change to the project directory and run `npm start`\
-This will open the template for any React project at [http://localhost:3000]http://localhost:3000. \
+This will open the template for any React project at [http://localhost:3000](http://localhost:3000) \
 After that, you can access in any code editor to modify your project
 
 ## Understanding `App.js`
